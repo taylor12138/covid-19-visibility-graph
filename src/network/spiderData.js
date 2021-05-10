@@ -1,12 +1,12 @@
 import { request } from './request'
 export function getData() {
   return request({
-    url: 'http://47.113.117.158/host/covid19'
+    //url: 自己填写数据来源
   });
 }
 export function getAboard() {
   return request({
-    url: 'http://47.113.117.158/host/covid19_out'
+    //url: 自己填写数据来源
   });
 }
 
